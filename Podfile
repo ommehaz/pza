@@ -12,4 +12,5 @@ target 'ommehaz' do
     pod 'SnapKit', '~> 4.0'
     pod 'SDWebImage', '~> 4.0'
     pod 'CodableFirebase'
+    pod 'IGListKit', '~> 3.0'
 end

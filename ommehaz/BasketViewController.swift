@@ -12,8 +12,8 @@ class BasketViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        DataContainer.shared.fetchData {
-            print("COMPLETED")
+        DataContainer.shared.getCategories { categories in
+            print(categories.count)
         }
     }
 
