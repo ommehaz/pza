@@ -8,20 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		024DDCEF20F2A4650004D63C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024DDCEE20F2A4650004D63C /* AppDelegate.swift */; };
-		024DDCF120F2A4650004D63C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024DDCF020F2A4650004D63C /* ViewController.swift */; };
-		024DDCF420F2A4650004D63C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 024DDCF220F2A4650004D63C /* Main.storyboard */; };
+		024DDCF120F2A4650004D63C /* BasketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024DDCF020F2A4650004D63C /* BasketViewController.swift */; };
 		024DDCF620F2A4650004D63C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 024DDCF520F2A4650004D63C /* Assets.xcassets */; };
-		024DDCF920F2A4650004D63C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 024DDCF720F2A4650004D63C /* LaunchScreen.storyboard */; };
+		024DDD0120F2A56E0004D63C /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 024DDD0020F2A56E0004D63C /* Podfile */; };
+		024DDD0B20F2A6B50004D63C /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024DDD0420F2A6B50004D63C /* Category.swift */; };
+		024DDD0C20F2A6B50004D63C /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024DDD0520F2A6B50004D63C /* Product.swift */; };
+		024DDD0D20F2A6B50004D63C /* ToppingPriceCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024DDD0720F2A6B50004D63C /* ToppingPriceCategory.swift */; };
+		024DDD0E20F2A6B50004D63C /* ToppingPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024DDD0820F2A6B50004D63C /* ToppingPrice.swift */; };
+		024DDD0F20F2A6B50004D63C /* Topping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024DDD0920F2A6B50004D63C /* Topping.swift */; };
+		024DDD1120F2A7100004D63C /* DataContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024DDD1020F2A7100004D63C /* DataContainer.swift */; };
+		024DDD1320F2A7870004D63C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 024DDD1220F2A7870004D63C /* GoogleService-Info.plist */; };
+		C1739086ECC58B4190FD3171 /* Pods_ommehaz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBBDAEB8428B51770BD0AB46 /* Pods_ommehaz.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		024DDCEB20F2A4650004D63C /* ommehaz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ommehaz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		024DDCEE20F2A4650004D63C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		024DDCF020F2A4650004D63C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		024DDCF320F2A4650004D63C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		024DDCF020F2A4650004D63C /* BasketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketViewController.swift; sourceTree = "<group>"; };
 		024DDCF520F2A4650004D63C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		024DDCF820F2A4650004D63C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		024DDCFA20F2A4650004D63C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		024DDD0020F2A56E0004D63C /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		024DDD0420F2A6B50004D63C /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		024DDD0520F2A6B50004D63C /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		024DDD0720F2A6B50004D63C /* ToppingPriceCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToppingPriceCategory.swift; sourceTree = "<group>"; };
+		024DDD0820F2A6B50004D63C /* ToppingPrice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToppingPrice.swift; sourceTree = "<group>"; };
+		024DDD0920F2A6B50004D63C /* Topping.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Topping.swift; sourceTree = "<group>"; };
+		024DDD1020F2A7100004D63C /* DataContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataContainer.swift; sourceTree = "<group>"; };
+		024DDD1220F2A7870004D63C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4ABC6E60566EC32EEEAA0DD1 /* Pods-ommehaz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ommehaz.release.xcconfig"; path = "Pods/Target Support Files/Pods-ommehaz/Pods-ommehaz.release.xcconfig"; sourceTree = "<group>"; };
+		D178E274B141553F24F006C8 /* Pods-ommehaz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ommehaz.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ommehaz/Pods-ommehaz.debug.xcconfig"; sourceTree = "<group>"; };
+		DBBDAEB8428B51770BD0AB46 /* Pods_ommehaz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ommehaz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1739086ECC58B4190FD3171 /* Pods_ommehaz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +55,11 @@
 		024DDCE220F2A4650004D63C = {
 			isa = PBXGroup;
 			children = (
+				024DDD0020F2A56E0004D63C /* Podfile */,
 				024DDCED20F2A4650004D63C /* ommehaz */,
 				024DDCEC20F2A4650004D63C /* Products */,
+				F141CD4B5289FEE4C0DC0E69 /* Pods */,
+				74E6774742755857879EEBE9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +74,52 @@
 		024DDCED20F2A4650004D63C /* ommehaz */ = {
 			isa = PBXGroup;
 			children = (
+				024DDD0220F2A6B50004D63C /* model */,
 				024DDCEE20F2A4650004D63C /* AppDelegate.swift */,
-				024DDCF020F2A4650004D63C /* ViewController.swift */,
-				024DDCF220F2A4650004D63C /* Main.storyboard */,
+				024DDCF020F2A4650004D63C /* BasketViewController.swift */,
+				024DDD1020F2A7100004D63C /* DataContainer.swift */,
 				024DDCF520F2A4650004D63C /* Assets.xcassets */,
-				024DDCF720F2A4650004D63C /* LaunchScreen.storyboard */,
 				024DDCFA20F2A4650004D63C /* Info.plist */,
+				024DDD1220F2A7870004D63C /* GoogleService-Info.plist */,
 			);
 			path = ommehaz;
+			sourceTree = "<group>";
+		};
+		024DDD0220F2A6B50004D63C /* model */ = {
+			isa = PBXGroup;
+			children = (
+				024DDD0420F2A6B50004D63C /* Category.swift */,
+				024DDD0520F2A6B50004D63C /* Product.swift */,
+				024DDD0620F2A6B50004D63C /* Topping */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		024DDD0620F2A6B50004D63C /* Topping */ = {
+			isa = PBXGroup;
+			children = (
+				024DDD0720F2A6B50004D63C /* ToppingPriceCategory.swift */,
+				024DDD0820F2A6B50004D63C /* ToppingPrice.swift */,
+				024DDD0920F2A6B50004D63C /* Topping.swift */,
+			);
+			path = Topping;
+			sourceTree = "<group>";
+		};
+		74E6774742755857879EEBE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBBDAEB8428B51770BD0AB46 /* Pods_ommehaz.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F141CD4B5289FEE4C0DC0E69 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D178E274B141553F24F006C8 /* Pods-ommehaz.debug.xcconfig */,
+				4ABC6E60566EC32EEEAA0DD1 /* Pods-ommehaz.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +129,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 024DDCFD20F2A4650004D63C /* Build configuration list for PBXNativeTarget "ommehaz" */;
 			buildPhases = (
+				7211D8222E840A6EF5C0E189 /* [CP] Check Pods Manifest.lock */,
 				024DDCE720F2A4650004D63C /* Sources */,
 				024DDCE820F2A4650004D63C /* Frameworks */,
 				024DDCE920F2A4650004D63C /* Resources */,
+				4A7F64E2DEFE332850D2D46A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,44 +183,82 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				024DDCF920F2A4650004D63C /* LaunchScreen.storyboard in Resources */,
 				024DDCF620F2A4650004D63C /* Assets.xcassets in Resources */,
-				024DDCF420F2A4650004D63C /* Main.storyboard in Resources */,
+				024DDD0120F2A56E0004D63C /* Podfile in Resources */,
+				024DDD1320F2A7870004D63C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A7F64E2DEFE332850D2D46A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ommehaz/Pods-ommehaz-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CodableFirebase/CodableFirebase.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CodableFirebase.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ommehaz/Pods-ommehaz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7211D8222E840A6EF5C0E189 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ommehaz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		024DDCE720F2A4650004D63C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				024DDCF120F2A4650004D63C /* ViewController.swift in Sources */,
+				024DDCF120F2A4650004D63C /* BasketViewController.swift in Sources */,
+				024DDD0F20F2A6B50004D63C /* Topping.swift in Sources */,
+				024DDD0D20F2A6B50004D63C /* ToppingPriceCategory.swift in Sources */,
+				024DDD1120F2A7100004D63C /* DataContainer.swift in Sources */,
+				024DDD0C20F2A6B50004D63C /* Product.swift in Sources */,
 				024DDCEF20F2A4650004D63C /* AppDelegate.swift in Sources */,
+				024DDD0E20F2A6B50004D63C /* ToppingPrice.swift in Sources */,
+				024DDD0B20F2A6B50004D63C /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		024DDCF220F2A4650004D63C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				024DDCF320F2A4650004D63C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		024DDCF720F2A4650004D63C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				024DDCF820F2A4650004D63C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		024DDCFB20F2A4650004D63C /* Debug */ = {
@@ -272,6 +370,7 @@
 		};
 		024DDCFE20F2A4650004D63C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D178E274B141553F24F006C8 /* Pods-ommehaz.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -281,12 +380,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tezel.ommehaz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		024DDCFF20F2A4650004D63C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ABC6E60566EC32EEEAA0DD1 /* Pods-ommehaz.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,7 +396,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tezel.ommehaz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
