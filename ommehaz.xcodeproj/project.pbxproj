@@ -18,6 +18,9 @@
 		024DDD0F20F2A6B50004D63C /* Topping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024DDD0920F2A6B50004D63C /* Topping.swift */; };
 		024DDD1120F2A7100004D63C /* DataContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024DDD1020F2A7100004D63C /* DataContainer.swift */; };
 		024DDD1320F2A7870004D63C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 024DDD1220F2A7870004D63C /* GoogleService-Info.plist */; };
+		024DDD1520F69CA00004D63C /* CategoryCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024DDD1420F69CA00004D63C /* CategoryCollectionView.swift */; };
+		024DDD1720F69D600004D63C /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024DDD1620F69D600004D63C /* CategoryCollectionViewCell.swift */; };
+		028F388420FB71A6008CA887 /* UIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028F388320FB71A6008CA887 /* UIManager.swift */; };
 		C1739086ECC58B4190FD3171 /* Pods_ommehaz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBBDAEB8428B51770BD0AB46 /* Pods_ommehaz.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +38,9 @@
 		024DDD0920F2A6B50004D63C /* Topping.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Topping.swift; sourceTree = "<group>"; };
 		024DDD1020F2A7100004D63C /* DataContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataContainer.swift; sourceTree = "<group>"; };
 		024DDD1220F2A7870004D63C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		024DDD1420F69CA00004D63C /* CategoryCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionView.swift; sourceTree = "<group>"; };
+		024DDD1620F69D600004D63C /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		028F388320FB71A6008CA887 /* UIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIManager.swift; sourceTree = "<group>"; };
 		4ABC6E60566EC32EEEAA0DD1 /* Pods-ommehaz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ommehaz.release.xcconfig"; path = "Pods/Target Support Files/Pods-ommehaz/Pods-ommehaz.release.xcconfig"; sourceTree = "<group>"; };
 		D178E274B141553F24F006C8 /* Pods-ommehaz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ommehaz.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ommehaz/Pods-ommehaz.debug.xcconfig"; sourceTree = "<group>"; };
 		DBBDAEB8428B51770BD0AB46 /* Pods_ommehaz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ommehaz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,6 +87,9 @@
 				024DDCF520F2A4650004D63C /* Assets.xcassets */,
 				024DDCFA20F2A4650004D63C /* Info.plist */,
 				024DDD1220F2A7870004D63C /* GoogleService-Info.plist */,
+				024DDD1420F69CA00004D63C /* CategoryCollectionView.swift */,
+				024DDD1620F69D600004D63C /* CategoryCollectionViewCell.swift */,
+				028F388320FB71A6008CA887 /* UIManager.swift */,
 			);
 			path = ommehaz;
 			sourceTree = "<group>";
@@ -199,6 +208,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ommehaz/Pods-ommehaz-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
 				"${BUILT_PRODUCTS_DIR}/CodableFirebase/CodableFirebase.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
@@ -210,6 +220,7 @@
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CodableFirebase.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
@@ -253,7 +264,10 @@
 				024DDD0F20F2A6B50004D63C /* Topping.swift in Sources */,
 				024DDD0D20F2A6B50004D63C /* ToppingPriceCategory.swift in Sources */,
 				024DDD1120F2A7100004D63C /* DataContainer.swift in Sources */,
+				028F388420FB71A6008CA887 /* UIManager.swift in Sources */,
 				024DDD0C20F2A6B50004D63C /* Product.swift in Sources */,
+				024DDD1520F69CA00004D63C /* CategoryCollectionView.swift in Sources */,
+				024DDD1720F69D600004D63C /* CategoryCollectionViewCell.swift in Sources */,
 				024DDCEF20F2A4650004D63C /* AppDelegate.swift in Sources */,
 				024DDD0E20F2A6B50004D63C /* ToppingPrice.swift in Sources */,
 				024DDD0B20F2A6B50004D63C /* Category.swift in Sources */,

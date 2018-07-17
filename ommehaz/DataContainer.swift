@@ -14,26 +14,26 @@ let CATEGORY_DATABASE_PATH = "categories"
 
 class DataContainer {
     static let shared = DataContainer()
-    private var categories: [Category]?
-    var ref: DatabaseReference!
+    private(set) var categories: [Category]?
     
-    private init() {
-        self.ref = Database.database().reference()
+    private init() {}
+    
+    func getCategories(callback: @escaping () -> Void){
+        Database.database().reference(withPath: CATEGORY_DATABASE_PATH).observeSingleEvent(of: .value, with: { snapshot in
+            guard let value = snapshot.value else { return }
+            do {
+                self.categories = try FirebaseDecoder().decode([Category].self, from: value)
+                self.categories?.append(contentsOf: try FirebaseDecoder().decode([Category].self, from: value))
+                self.categories?.append(contentsOf: try FirebaseDecoder().decode([Category].self, from: value))
+                self.categories?.append(contentsOf: try FirebaseDecoder().decode([Category].self, from: value))
+                self.categories?.append(contentsOf: try FirebaseDecoder().decode([Category].self, from: value))
+                
+                callback()
+            } catch let error {
+                // error handling HER
+                print(error)
+            }
+        })
     }
     
-    func getCategories(callback: @escaping ([Category]) -> Void){
-        if let categories = self.categories {
-            callback(categories)
-        } else {
-            Database.database().reference(withPath: CATEGORY_DATABASE_PATH).observeSingleEvent(of: .value, with: { snapshot in
-                guard let value = snapshot.value else { return }
-                do {
-                    self.categories = try FirebaseDecoder().decode([Category].self, from: value)
-                    callback(self.categories!)
-                } catch let error {
-                    print(error)
-                }
-            })
-        }
-    }
 }
