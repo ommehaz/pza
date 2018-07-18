@@ -10,8 +10,6 @@ import Foundation
 import Firebase
 import CodableFirebase
 
-let CATEGORY_DATABASE_PATH = "categories"
-
 class DataContainer {
     static let shared = DataContainer()
     private(set) var categories: [Category]?
@@ -19,7 +17,7 @@ class DataContainer {
     private init() {}
     
     func getCategories(callback: @escaping () -> Void){
-        Database.database().reference(withPath: CATEGORY_DATABASE_PATH).observeSingleEvent(of: .value, with: { snapshot in
+        Database.database().reference(withPath: Constants.CategoryDatabasePath).observeSingleEvent(of: .value, with: { snapshot in
             guard let value = snapshot.value else { return }
             do {
                 self.categories = try FirebaseDecoder().decode([Category].self, from: value)
